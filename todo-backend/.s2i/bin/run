@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# TODO: Add command to launch the application
+# Hint: use a node command to run the app's main server file
+
+# Call the base S2I assemble script
+/usr/libexec/s2i/assemble

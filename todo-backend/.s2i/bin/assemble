@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Call the base S2I assemble script
+/usr/libexec/s2i/assemble
+
+# Copy source files into the application directory
+cp -Rf . $HOME
+
+# TODO: Add command to install Node.js dependencies
+# Hint: run inside $HOME
