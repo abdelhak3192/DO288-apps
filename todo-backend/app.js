@@ -19,7 +19,7 @@ var server = restify.createServer()
 controller.context(server, '/todo/api', model); 
 serverinfo.context(server, '/todo/api');
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 server.listen(port, function (err) {
     if (err)
         console.error(err);
